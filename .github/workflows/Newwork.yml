@@ -1,4 +1,4 @@
-name: My sample pipeline
+name: My new sample pipeline
 on: push
 jobs: 
  build:
