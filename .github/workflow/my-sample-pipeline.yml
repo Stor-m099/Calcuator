@@ -1,0 +1,8 @@
+name: my sample pipeline
+on: push
+jobs: 
+ build:
+  runs-on: ubuntu-latest
+  steps:
+   - name: starting point
+     run:  pwd echo" this is the build stage" 
