@@ -5,4 +5,4 @@ jobs:
   runs-on: ubuntu-latest
   steps: 
    - name: Starting point
-     run: pwd echo "this is the viewing stage"
+     run: echo "This is a change"
