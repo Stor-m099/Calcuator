@@ -1,11 +1,15 @@
 name: my sample pipeline
-on: push
+on: 
+ push:
+  branches:
+   - main
+     release
+     
 jobs: 
   build:
     runs-on: ubuntu-latest
     steps:
      - name: starting point
-       run:  |
-       djdk
+       run:  pwd
        
        
