@@ -1,9 +1,7 @@
 name: my sample pipeline
 on: 
  push:
-  branches:
-   - main
-     release
+  branches: main
      
 jobs: 
   build:
